@@ -18,3 +18,13 @@ Dictionary Encoding, also known as Lempel-Ziv-Welch (LZW) compression, is a more
 The LZW implementation includes the following functions:
 - `compressionDict(string input)`: This function takes an input string and returns its LZW encoded version.
 - `DeCompression(string input)`: This function takes an LZW encoded string and decodes it to its original form.
+
+## How to Run This Project
+1. Clone the repository.
+2. For compression:
+   - Compile and run the `DictComp.cpp` file and `RunComp.cpp` file present in `CompressionCodes` directory to compress the test cases.
+3. For decompression:
+   - Compile and run the `DictDecomp.cpp` file and `RunDecomp.cpp` file in `DeCompressionCodes` directory.
+4. The compressed testcases for Dictionary Coding are stored in `Output_Dictionary_Compressing` directory while Runlength encoded outputs are stored in `Output_Runlength_Compressing`.
+5. The decompressed testcases for Dictionary Coding are stored in `Output_Dictionary_DeCompressing` directory while Runlength encoded outputs are stored in `Output_Runlength_DeCompressing`.
+
